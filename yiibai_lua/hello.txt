@@ -1,0 +1,17 @@
+this file is hello.txt
+how to work hard
+how to play happy
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+io.write hello world
+file:write hello world
+file:write hello world
+file:write hello world
+file:write hello world
+file:write hello world
