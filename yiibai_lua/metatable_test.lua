@@ -72,7 +72,7 @@ print("mytable.key3", mytable.key3)
 print("--demo9, __add")
 mytable = setmetatable({1, 2, 3}, {
     __add = function(mytable, newtable)
-        for k, v in ipairs(newtable)
+        for k, v in pairs(newtable)
         do
             table.insert(mytable, v)
         end
@@ -83,7 +83,7 @@ mytable = setmetatable({1, 2, 3}, {
 youtable = {"aaa", "bbb", "ccc"}
 mytable = mytable + youtable
 
-for k, v in ipairs(mytable)
+for k, v in pairs(mytable)
 do
     print(k, v)
 end
@@ -93,11 +93,11 @@ print("--demo10, __call")
 mytable = setmetatable({100}, {
     __call = function(mytable, newtable)
         sum = 0
-        for k, v in ipairs(mytable)
+        for k, v in pairs(mytable)
         do
             sum = sum + v
         end
-        for k, v in ipairs(newtable)
+        for k, v in pairs(newtable)
         do
             sum = sum + v
         end

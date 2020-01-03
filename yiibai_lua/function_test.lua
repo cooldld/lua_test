@@ -18,7 +18,7 @@ add_print(1, 2, print)
 
 function average(...)
     local arg = {...}
-    for k, v in ipairs(arg)
+    for k, v in pairs(arg)
     do
         print("k, v =", k, v)
     end

@@ -37,14 +37,14 @@ print("remove(fruits, 2)", table.concat(fruits, ", "))
 --表排序sort
 print("--demo, table.sort()")
 fruits = {"banana", "orange", "mango", "apple"}
-for k, v in ipairs(fruits)
+for k, v in pairs(fruits)
 do
     print(k, v)
 end
 
 table.sort(fruits)
 print("sort(fruits):")
-for k, v in ipairs(fruits)
+for k, v in pairs(fruits)
 do
     print(k, v)
 end
