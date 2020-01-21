@@ -1,0 +1,19 @@
+--[[
+Donald,Literate Programing,CSLI,1992
+Jon,More Programing Pearls,Addison-Wesley,1990
+--]]
+
+Entry {"Donald",
+    "Literate Programing",
+    "CSLI",
+    1992}
+
+Entry {"Jon",
+    "More Programing Pearls",
+    "Addison-Wesley",
+    1990}
+
+Entry {"Mic",
+    "How to HTML",
+    "CSLI",
+    1934}

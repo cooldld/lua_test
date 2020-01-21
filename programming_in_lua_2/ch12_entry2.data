@@ -1,0 +1,32 @@
+--[[
+Donald,Literate Programing,CSLI,1992
+Jon,More Programing Pearls,Addison-Wesley,1990
+--]]
+
+Entry {
+    author = "Donald",
+    title = "Literate Programing",
+    publisher = "CSLI",
+    year = 1992
+}
+
+Entry {
+    author = "Mic",
+    title = "How to HTML",
+    publisher = "CSLI",
+    year = 1934
+}
+
+Entry {
+    author = "Jon",
+    title = "More Programing Pearls",
+    publisher = "Addison-Wesley",
+    year = 1990
+}
+
+Entry {
+    author = nil,
+    title = "hahaha",
+    publisher = "wahaha",
+    year = 1990
+}
